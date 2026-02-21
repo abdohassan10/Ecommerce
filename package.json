@@ -41,5 +41,6 @@
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.7",
     "typescript": "^5"
-  }
+  },
+  "preinstall": "npm config set legacy-peer-deps true"
 }
